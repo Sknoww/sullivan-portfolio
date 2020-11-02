@@ -1,0 +1,17 @@
+{
+    "user": "test@gmail.com",
+    "recipes": [
+        {
+            "name": "example",
+            "description": "example",
+            "yield": 10,
+            "link": "https://www.myrecipes.com/recipe/country-potatoes-au-gratin",
+            "ingredients": ["test1", "test2", "test3"],
+            "steps": {
+                "1": "example",
+                "2": "example2",
+                "3": "example3"
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "short_name": "Recipe Saver",
+    "name": "Snow's Recipe Saver",
+    "icons": [
+        {
+            "src": "snowLogo.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "snowLogo192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "snowLogo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#ff526a",
+    "background_color": "#ff526a"
+}

@@ -1,0 +1,10 @@
+.App {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.navBarStyle {
+    display: flexbox;
+    justify-content: left;
+    width: 100%;
+    padding-top: 20px;
+}
