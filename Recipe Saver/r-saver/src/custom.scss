@@ -1,0 +1,12 @@
+/* Change theme-colors */
+$theme-colors: (
+    primary: #ff526a,
+    secondary: #3b3c3e,
+    success: black,
+    info: #64c3d2,
+    white: #ffffff,
+    warning: #f5e74a,
+    danger: #820410,
+);
+
+@import "~bootstrap/scss/bootstrap.scss";

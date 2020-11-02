@@ -1,0 +1,49 @@
+.card-body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.dashboardInfo {
+    width: 100%;
+    color: #ff465f;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboardRecipes {
+    width: 100%;
+    color: #ff465f;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dashboardBody {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 90%;
+}
+
+.dashboardNameHeader {
+    font-size: large;
+    color: #ff465f;
+    margin-left: 10px;
+}
+
+.dashboardName {
+    font-size: medium;
+    color: white;
+}
+
+.dashboardEmailHeader {
+    font-size: large;
+    color: #ff465f;
+    margin-left: 10px;
+}
+
+.dashboardEmail {
+    font-size: medium;
+    color: white;
+}

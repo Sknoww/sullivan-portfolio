@@ -1,0 +1,220 @@
+@media (max-width: 1080px) {
+    .dashboardRecipes {
+        color: white;
+        color: white;
+        font-size: xx-large;
+        font-weight: lighter;
+        padding: 0 !important;
+    }
+
+    .dashboardHeader {
+        color: white;
+        font-weight: lighter;
+    }
+
+    .recipeTable {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+        border-collapse: collapse;
+        border-radius: 10px;
+    }
+
+    .recipeTableBody {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tablePreviewContainer {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin: 3px;
+    }
+
+    .recipePreviewInTable {
+        display: block;
+        width: 100% !important;
+        color: #ff465f;
+        font-weight: bold;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .recipePreviewInTable:hover {
+        background-color: rgb(31, 31, 31);
+        border-top: none !important;
+    }
+
+    .expandedRecipe {
+        width: 100%;
+        color: white;
+        background-color: #ff465f;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .descriptionExpandedRecipe,
+    .linkExpandedRecipe,
+    .yieldExpandedRecipe {
+        color: white;
+    }
+
+    .desYieldRow {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .yieldExpandedRecipe {
+        margin-right: 10px !important;
+    }
+
+    .viewFullRecipeButton {
+        transition: all 0.8s;
+        width: 15%;
+        background-color: black !important;
+        border-radius: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .viewFullRecipeButton btn btn-secondary :hover {
+        border: 2px solid azure !important;
+        width: 30% !important;
+    }
+
+    .viewFullRecipeButton {
+        width: auto;
+    }
+
+    .modal-dialog {
+        width: 90%;
+        max-width: none !important;
+        height: 90%;
+        max-height: none !important;
+    }
+
+    .descriptionExpandedRecipe > span {
+        font-weight: bold;
+        color: black;
+    }
+
+    .yieldExpandedRecipe > span {
+        font-weight: bold;
+        color: black;
+    }
+
+    .linkExpandedRecipe > span {
+        font-weight: bold;
+        color: black;
+    }
+}
+
+@media (min-width: 1080px) {
+    .dashboardRecipes {
+        color: white;
+        font-size: xx-large;
+        font-weight: lighter;
+        padding: 0 !important;
+    }
+
+    .dashboardHeader {
+        color: white;
+    }
+
+    .recipeTable {
+        display: flex;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+        border-collapse: collapse;
+        border-radius: 10px;
+    }
+
+    .recipeTableBody {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tablePreviewContainer {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin: 3px;
+    }
+
+    .recipePreviewInTable {
+        display: block;
+        width: 100% !important;
+        color: #ff465f;
+        font-weight: 500;
+
+        background-color: black;
+        padding: 10px;
+    }
+
+    .recipePreviewInTable:hover {
+        background-color: rgb(31, 31, 31);
+        border-top: none !important;
+    }
+
+    .expandedRecipe {
+        width: 100%;
+        color: white;
+        background-color: #ff465f;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .descriptionExpandedRecipe,
+    .linkExpandedRecipe,
+    .yieldExpandedRecipe {
+        color: white;
+    }
+
+    .desYieldRow {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .yieldExpandedRecipe {
+        margin-right: 10px !important;
+    }
+
+    .viewFullRecipeButton {
+        transition: all 0.8s;
+        width: auto;
+        white-space: nowrap;
+        background-color: black !important;
+        border-radius: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .viewFullRecipeButton btn btn-secondary :hover {
+        border: 2px solid azure !important;
+    }
+
+    .modal-dialog {
+        width: 90%;
+        max-width: none !important;
+        height: 90%;
+        max-height: none !important;
+    }
+
+    .descriptionExpandedRecipe > span {
+        font-weight: bold;
+        color: black;
+    }
+
+    .yieldExpandedRecipe > span {
+        font-weight: bold;
+        color: black;
+    }
+
+    .linkExpandedRecipe > span {
+        font-weight: bold;
+        color: black;
+    }
+}

@@ -1,0 +1,89 @@
+.welcomeHeader.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 45%;
+    font-size: large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 15px !important;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+@media (min-width: 1000px) {
+    .welcomeHeader.card-header {
+        /* Never get larger than this */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px;
+        margin-bottom: 0px;
+        height: 45%;
+        font-size: xx-large;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        border-radius: 15px !important;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8) !important;
+    }
+}
+
+.saveButtonRS btn btn-primary {
+    font-size: 14px;
+    height: 50px;
+}
+
+@media (min-width: 1000px) {
+    .saveButtonRS btn btn-primary {
+        /* Never get larger than this */
+        font-size: 20px;
+        height: 50px;
+    }
+}
+
+.loginButtonAndLabelRS {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    width: 30%;
+    height: 95%;
+}
+
+.loginButtonLabelRS {
+    padding-top: 3%;
+    padding-right: 10%;
+    font-size: 14px;
+}
+
+@media (min-width: 1000px) {
+    .loginButtonLabelRS {
+        /* Never get larger than this */
+        width: 50%;
+        font-size: 20px;
+    }
+}
+
+.loginButtonRS btn btn-primary {
+    font-size: 14px;
+}
+
+@media (min-width: 1000px) {
+    .loginButtonRS btn btn-primary {
+        /* Never get larger than this */
+        font-size: 20px;
+    }
+}
+
+.logoutButtonDashboard btn btn-primary {
+    font-size: 14px;
+    height: 50px;
+}
+
+@media (min-width: 1000px) {
+    .logoutButtonDashboard btn btn-primary {
+        /* Never get larger than this */
+        font-size: 20px;
+        height: 50px;
+    }
+}
